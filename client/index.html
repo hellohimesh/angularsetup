@@ -1,0 +1,41 @@
+<html>
+
+<head>
+
+  <title>Rotaract Club VVP</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=3">
+  <sript src="bower_components/jquery/dist/jquery.min.js">
+  <script src="bower_components/angular/angular.min.js"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <sript src="bower_components/bootstrap/dist/js/bootstrap.js">
+  <script src="bower_components/angular-animate/angular-animate.js"></script>
+  <script src="bower_components/angular-material/angular-material.min.js"></script>
+  <script src="bower_components/angular-messages/angular-messages.min.js"></script>
+  <script src="bower_components/angular-aria/angular-aria.min.js"></script>
+  <link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/style/w3.css">
+  <link rel="stylesheet" href="assets/style/style.css">
+  <link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css">
+  <script src="app/app.module.js"></script>
+  <script src="app/app.config.js"></script>
+  <script src="guest/model/guest.factory.js"></script>
+  <script src="guest/controller/guest.welcome.controller.js"></script>
+   <script src="guest/controller/guest.events.controller.js"></script>
+    <script src="guest/controller/guest.postHolders.controller.js"></script>
+     <script src="guest/controller/guest.eventDetails.controller.js"></script>
+      <script src="guest/controller/guest.about.controller.js"></script>
+
+</head>
+
+<body ng-app="rotaractApp">
+
+  <div class="container-fluid">
+  <div ui-view>
+  </div>    
+  </div>
+
+</body>
+
+</html>
