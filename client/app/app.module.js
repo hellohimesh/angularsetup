@@ -1,1 +1,1 @@
-angular.module('rotaractApp',['ui.router']);
+angular.module('rotaractApp',['ui.router','autoCompleteTextBoxModule']);
