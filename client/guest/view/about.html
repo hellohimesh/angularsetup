@@ -1,12 +1,30 @@
-<h1>Auto Complete textbox</h1>
+<!-- <h1>Auto Complete textbox</h1>
 <auto-complete-textbox class="col-md-6  col-xs-12"
 		placeholdertext="search  grno"
 		array='students' 
 		output="student"
 		search = "grno" 		
 		display = "showArray" 
-		callback="getDetails()" style="z-index:100" style="margin-top:20px"> 
+		callback="getDetails($event)" style="z-index:100" style="margin-top:20px"> 
 	</auto-complete-textbox>
 
 	
 	<h1>{{student}}</h1>
+ -->
+
+ <!-- <button class="btn btn-success" ng-click="scan()">scan</button>
+
+ <barcode-listener
+  on-scan='handleScan'
+  prefix='P%'
+  scan-duration='500'
+></barcode-listener>
+ -->
+ <div id="reader" style="width:300px;height:250px">
+ </div>
+ <button class="btn btn-success" ng-click="scanNow()">scan now</button>
+
+<div id="qrcode"></div>
+
+<input type="text" class="form-control" ng-model="qr" />
+<button class="btn-success" ng-click="generateQrCode(qr)">generate QR </button>

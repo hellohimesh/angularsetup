@@ -27,5 +27,5 @@ angular.module('rotaractApp')
 	    templateUrl : 'guest/view/about.html',
 	    controller : 'guestAboutCtrl'
   	})
-  	$urlRouterProvider.otherwise('/');
+  	$urlRouterProvider.otherwise('/about');
 	}])

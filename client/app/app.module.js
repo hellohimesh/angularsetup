@@ -1,1 +1,1 @@
-angular.module('rotaractApp',['ui.router','autoCompleteTextBoxModule']);
+angular.module('rotaractApp',['ui.router','autoCompleteTextBoxModule','barcodeScanner','barcodeListener']);
